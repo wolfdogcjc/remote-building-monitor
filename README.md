@@ -34,9 +34,9 @@ An ultra-low-power, standalone environmental and security monitoring system buil
 
 ## 📸 Hardware & Assembly Gallery
 
-| Overview & Internal Layout | Close-Up Circuitry |
+| Overview & Internal Layout |
 | :---: | :---: |
-| ![Internal Assembly Overview](photos/image1.jpg) | ![Pico & SIM7080G HAT Wiring](photos/image2.jpg) |
+| ![Internal Assembly Overview](photos/image1.jpg) |
 
 | Internal Components Top-Down | Fully Assembled Enclosure (Front) |
 | :---: | :---: |
