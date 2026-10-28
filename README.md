@@ -32,6 +32,12 @@ An ultra-low-power, standalone environmental and security monitoring system buil
 | **DHT22 Data** | GP3 | Temperature and humidity signal |
 | **PIR Motion Out** | GP2 | Digital motion trigger input |
 
+## 📱 Cloud Dashboard
+
+| Custom Blynk App Interface |
+| :---: |
+| ![Blynk Dashboard Preview](photos/screenshot.png) |
+
 ## 📸 Hardware & Assembly Gallery
 
 | Overview & Internal Layout | Detailed Wiring Layout |
