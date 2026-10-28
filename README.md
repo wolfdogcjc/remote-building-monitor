@@ -2,8 +2,6 @@
 
 An ultra-low-power, standalone environmental and security monitoring system built for remote or off-grid locations. Powered by a **Raspberry Pi Pico 2 W** and a **SIM7080G LTE-M / NB-IoT cellular modem**, this system monitors ambient temperature, humidity, and physical intrusion, syncing securely to the Blynk IoT cloud.
 
----
-
 ## 🛠️ Hardware Stack
 - **Microcontroller:** Raspberry Pi Pico 2 W (RP2040)
 - **Cellular Module:** Waveshare SIM7080G Cat-M / NB-IoT HAT
@@ -11,8 +9,6 @@ An ultra-low-power, standalone environmental and security monitoring system buil
 - **Motion Sensor:** PIR Motion Detector
 - **Network / Carrier:** Hologram IoT (LTE-M network)
 - **Cloud Platform:** Blynk IoT (HTTP REST API over Port 80)
-
----
 
 ## ⚡ Key Engineering Features
 
@@ -26,8 +22,6 @@ An ultra-low-power, standalone environmental and security monitoring system buil
   * Features a robust **2-hour software inactivity watchdog** using the RP2040 hardware watchdog library (`watchdog_reboot(0, 0, 0)`) to auto-recover from unexpected lockups.
   * Built-in DHT22 `NaN` resample routine (retries up to 3 times with a fallback reading of 99.0°F) to prevent sensor read faults from crashing program execution.
 
----
-
 ## 📌 Pinout Mapping
 
 | Component | Pico Pin | Description |
@@ -38,16 +32,16 @@ An ultra-low-power, standalone environmental and security monitoring system buil
 | **DHT22 Data** | GP3 | Temperature and humidity signal |
 | **PIR Motion Out** | GP2 | Digital motion trigger input |
 
----
-
 ## 📸 Hardware & Assembly Gallery
-| Enclosure with Cellular Antenna |
-| ![Complete Unit with Antenna](photos/image5.jpg) |
-| Internal Components Top-Down | Fully Assembled Enclosure (Front) |
-| ![Detailed Wiring Layout](photos/image3.jpg) | ![Assembled Enclosure with PIR Lens](photos/image4.jpg) |
+
 | Overview & Internal Layout | Close-Up Circuitry |
-| ![Internal Assembly Overview](photos/image1.jpg) |
+| :---: | :---: |
+| ![Internal Assembly Overview](photos/image1.jpg) | ![Pico & SIM7080G HAT Wiring](photos/image2.jpg) |
 
+| Internal Components Top-Down | Fully Assembled Enclosure (Front) |
+| :---: | :---: |
+| ![Detailed Wiring Layout](photos/image3.jpg) | ![Assembled Enclosure with PIR Lens](photos/image4.jpg) |
 
-
-
+| Enclosure with Cellular Antenna |
+| :---: |
+| ![Complete Unit with Antenna](photos/image5.jpg) |
