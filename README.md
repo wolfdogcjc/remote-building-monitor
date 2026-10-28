@@ -42,13 +42,10 @@ An ultra-low-power, standalone environmental and security monitoring system buil
 
 ## 📸 Hardware & Assembly Gallery
 | Enclosure with Cellular Antenna |
-| :---: |
 | ![Complete Unit with Antenna](photos/image5.jpg) |
 | Internal Components Top-Down | Fully Assembled Enclosure (Front) |
-| :---: | :---: |
 | ![Detailed Wiring Layout](photos/image3.jpg) | ![Assembled Enclosure with PIR Lens](photos/image4.jpg) |
 | Overview & Internal Layout | Close-Up Circuitry |
-| :---: | :---: |
 | ![Internal Assembly Overview](photos/image1.jpg) |
 
 
